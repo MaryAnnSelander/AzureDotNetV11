@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tutorial-ai-enrichment", "tutorial-ai-enrichment.csproj", "{3C56E1BF-6D36-44C0-9737-D455336B4433}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataLakeGen2ACLIndexing", "..\..\data-lake-gen2-acl-indexing\DataLakeGen2ACLIndexing.csproj", "{BB545781-B887-410A-95DD-6DD72FF77C45}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OptimizeDataIndexing", "..\..\optimize-data-indexing\v11\OptimizeDataIndexing\OptimizeDataIndexing.csproj", "{927AD7B4-DD91-4BD4-821A-0F167294C2C0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstAzureSearchApp", "..\..\create-first-app\v11\1-basic-search-page\FirstAzureSearchApp\FirstAzureSearchApp.csproj", "{6A9397A6-A2A3-4DD4-B28E-47F36F37C541}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C56E1BF-6D36-44C0-9737-D455336B4433}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C56E1BF-6D36-44C0-9737-D455336B4433}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C56E1BF-6D36-44C0-9737-D455336B4433}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C56E1BF-6D36-44C0-9737-D455336B4433}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB545781-B887-410A-95DD-6DD72FF77C45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB545781-B887-410A-95DD-6DD72FF77C45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB545781-B887-410A-95DD-6DD72FF77C45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB545781-B887-410A-95DD-6DD72FF77C45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{927AD7B4-DD91-4BD4-821A-0F167294C2C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{927AD7B4-DD91-4BD4-821A-0F167294C2C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{927AD7B4-DD91-4BD4-821A-0F167294C2C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{927AD7B4-DD91-4BD4-821A-0F167294C2C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A9397A6-A2A3-4DD4-B28E-47F36F37C541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A9397A6-A2A3-4DD4-B28E-47F36F37C541}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A9397A6-A2A3-4DD4-B28E-47F36F37C541}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A9397A6-A2A3-4DD4-B28E-47F36F37C541}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B45CD05B-9F31-4CC6-B4EF-7533BAB4DAF0}
+	EndGlobalSection
+EndGlobal
